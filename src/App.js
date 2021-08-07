@@ -1,12 +1,16 @@
 import React from "react";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Home from "./pages/Home";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Content</h1>
+      <Container>
+        <Home />
+      </Container>
       <Footer />
     </>
   );
